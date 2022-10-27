@@ -1,0 +1,132 @@
+body {
+    
+width: 80%;
+    
+margin: auto;
+}
+
+img.gambar {
+    width: 200px;
+}
+
+header {
+    
+background: #adf0ff;
+    
+margin-bottom: 0px;
+}
+
+.hdr {
+    display: flex;
+}
+
+.title {
+    color: white;
+}
+
+.h-title {
+    margin-bottom: 0px;
+}
+
+p.caption {
+    margin-top: 0px;
+}
+
+ul.menu {display: flex;justify-content: flex-end;list-style: none;color: white;margin-top: 0px;}
+
+li {
+    margin: 10px;
+}
+
+.menubar {
+    background: #6767ff;
+    margin-top: 0px;
+}
+
+h2.subtittle {
+    width: 250px;
+    background: #395eb1;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail {
+    width: 50%;
+}
+
+iframe.video {
+    width: 45%;
+}
+
+.detail p {
+    text-align: justify;
+    margin: 20px;
+}
+
+.detail {
+    background: #e9e6e6;
+    border-radius: 15px;
+}
+
+
+
+footer {background: #dbd0d0;padding: 10px;margin-top: 50px;text-align: center;color: #395eb1;font-weight: bold;}
+
+.vid {
+    position: relative;
+    left: 10px;
+}
+
+.table-pengalaman {
+    position: relative;
+    border-collapse: collapse;
+    left: 400px;
+    top: 10px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+}
+.table-pengalaman thead tr {
+    background-color: #958adb;
+    color: #ffffff;
+    text-align: center;
+}
+.table-pengalaman th,
+.table-pengalaman td {
+    position: relative;
+    left: -250px;
+    padding: 12px 100px 5px 20px;
+}
+button {
+    position: relative;
+    border-radius: 20px;
+    border-color: #958adb;
+    width: 250px;
+    height: 30px;
+    background-color: #958adb;
+    color: #F0F8FF;
+}
+form {
+    position: relative;
+    border-radius: 10px;
+    top: 30px;
+    left: 50px;
+    width: 400px;
+    height: 280px;
+    background-color: #bee5f4;
+    ;
+}
+
+div.isi {
+    position: relative;
+    left: 90px;
+    top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+}
