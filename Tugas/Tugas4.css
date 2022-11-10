@@ -1,7 +1,35 @@
+:root {
+   --first-color: #101010;
+   --second-color: #eaeaea;
+   --third-color: #101010;
+   --fourth-color: #eaeaea;
+}
+.lightmode {
+   --first-color: #ffffff;
+   --second-color: #101010;
+   --third-color: #eaeaea;
+   --fourth-color: #eaeaea;
+}
+
+body {
+   background-color: var(--first-color);
+}
+.row h1{
+   color: var(--second-color);
+}
+.row p{
+   color: var(--second-color);
+}
+
+.row h2{
+   color: var(--second-color);
+}
+
 header {
-    background-color: #f1f1f1;
+    background-color: var(--first-color);
     padding: 20px;
     text-align: center;
+    color: var(--second-color);
 }
 
 header img {
@@ -19,7 +47,7 @@ header img {
 .topnav a {
    float: left;
    display: block;
-   color: #f2f2f2;
+   color: var(--fourth-color);
    text-align: center;
    padding: 14px 16px;
    text-decoration: none;
@@ -29,6 +57,17 @@ header img {
    background-color: #ddd;
    color: black;
 }
+
+.mode-tombol{
+   display: flex;
+   flex-direction: row;
+}
+
+.icon-switch{
+   height: 8% ;
+   width: 8%;
+}
+
 
 .column {
    float: left;
@@ -51,11 +90,11 @@ header img {
    display: table;
    clear: both;
 }
-  
-@media screen and (max-width:600px) {
-.column {
-     width: 100%;
-    }
+
+iframe {
+    width: 420px;
+    height: 230px;
+    border-radius: 10px;
 }
 
 #history {
@@ -70,8 +109,8 @@ header img {
 }
   
 #history tr:nth-child(even){background-color: #f2f2f2;}
-  
-#history tr:hover {background-color: #ddd;}
+#history tr:nth-child(odd){background-color:  #ddd;}  
+#history tr:hover {background-color: #04AA6D;;}
   
 #history tr {
  text-align: center;
@@ -120,6 +159,33 @@ input[type=text], select {
    border-radius: 5px;
    background-color: #f2f2f2;
    padding: 20px;
+   
+ }
+ 
+ .form-kepo h2{
+   color: #101010;
  }
  
  
+ .form-kepo p{
+   color: #101010;
+ }
+@media screen and (max-width:720px) {
+   .column-main{
+      width: 95%;
+      
+   }
+   .column {
+     width: 80%;
+    }
+    .icon-switch{
+      height: 10% ;
+      width: 10%;
+   } 
+   header img {
+      border-radius: 100%;
+      height: 15%;
+      width: 15%;
+   }
+   
+}
